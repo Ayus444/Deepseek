@@ -14,8 +14,8 @@ RUN go mod tidy
 RUN go build -o telegram-deepseek-bot main.go
 
 # 设置运行环境变量（可选）
-ENV TELEGRAM_BOT_TOKEN=""
-ENV DEEPSEEK_TOKEN=""
+ENV TELEGRAM_BOT_TOKEN="7816069570:AAGAux0lPAa6T2DxWvXGbimObfwWzBfJm-k"
+ENV DEEPSEEK_TOKEN="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"
 ENV CUSTOM_URL=""
 ENV DEEPSEEK_TYPE=""
 ENV VOLC_AK=""
